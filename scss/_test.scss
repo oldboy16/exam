@@ -1,0 +1,22 @@
+.test {
+    p {
+        text-align: center;
+        margin-top: 100px;
+        color: var(--Secondary, #295943);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 180%;
+    }
+
+    h2 {
+        color: var(--TitleColor, #3D3E48);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27.65px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        text-align: center;
+    }
+}

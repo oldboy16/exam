@@ -1,0 +1,46 @@
+.test__list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .test__item {
+        margin-top: 20px;
+        width: 380px;
+        height: 207px;
+        flex-shrink: 0;
+        background-color: grey;
+    }
+
+    .test__item:hover {
+        background-color: var(--Primary, #43B97F);
+        color: white;
+    }
+
+    .test__first {
+        display: flex;
+        align-items: center;
+    }
+
+    h3 {
+        color: var(--TitleColor, #3D3E48);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23.04px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        padding-left: 10px;
+    }
+
+    p {
+        color: var(--TitleColor, #3D3E48);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+}

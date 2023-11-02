@@ -1,0 +1,23 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hero__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .hero__inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    a{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+}
